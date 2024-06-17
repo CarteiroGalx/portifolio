@@ -8,7 +8,7 @@ function App() {
     <div className="App">
         <Nav />
         <div className='row'>
-          <div id='home' className='col-7 apresentation mx-5'>
+          <div id='#home' className='col-7 apresentation mx-5'>
             <div className='col-10'>
               <h1>Olá, meu nome é <span>Erivelton</span></h1>
               <h5>Desenvolvedor Front-End & Game Developer. Um apaixonado pela tecnologia que mora em PE, Recife.</h5>
@@ -41,6 +41,9 @@ function App() {
           </div>
         </div>
         <Divisor className="mt-5" name="Projetos"/>
+        <div>
+          <button>dasd</button>
+        </div>
     </div>
   );
 }
