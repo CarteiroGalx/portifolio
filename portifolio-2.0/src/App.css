@@ -1,11 +1,11 @@
 #root{
   background-color: black;
   overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
 }
 
 h1, h5{
   color: white;
-  font-family: 'Inter', sans-serif;
 }
 
 .b-blue-font{
@@ -53,3 +53,20 @@ span{
   border-radius: 20px;
   background-color: #062C65;
 }
+
+.button-project{
+  background-color: #062C65;
+  border: none;
+  width: 171px;
+  height: 45px;
+  font-size: x-large;
+}
+
+.button-project:hover{
+  opacity: 90%;
+}
+
+.selected{
+  background-color: #0C58CB;
+}
+

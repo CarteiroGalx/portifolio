@@ -41,8 +41,9 @@ function App() {
           </div>
         </div>
         <Divisor className="mt-5" name="Projetos"/>
-        <div>
-          <button>dasd</button>
+        <div className='justify-content-center d-flex mb-4'>
+          <button className='button-project selected text-white rounded-start-5'>Websites</button>
+          <button className='button-project text-white rounded-end-5'>Games</button>
         </div>
     </div>
   );
