@@ -23,7 +23,10 @@ h1, h5{
 
 .apresentation{
   margin-top: 250px;
-  margin-left: 90px;
+}
+
+.animation-logo{
+  opacity: 30%;
 }
 
 span{
