@@ -26,15 +26,26 @@ h1, h5{
   position: relative;
 }
 
+.icons-knowledge{
+  width: 100%;
+  height: 60px;
+  background-color: #062C65;
+  border-radius: 20px;
+}
+
+.icon-knowledge{
+  max-width: 40px;
+}
+
 .animation-logo{
-  max-width: 90%;
+  max-width: 80%;
 }
 
 span{
   color: #007BFF;
 }
 
-.divisor-knowledge{
+.divisor{
   width: 100%;
   height: 8px;
   border-radius: 20px;
