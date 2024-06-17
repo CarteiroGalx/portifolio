@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Nav from './components/nav'
+import Divisor from './components/divisor';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             <img className='animation-logo' src='/images/animation-logo.gif'></img>
           </div>
         </div>
+        <Divisor className="mt-5" name="Projetos"/>
     </div>
   );
 }
