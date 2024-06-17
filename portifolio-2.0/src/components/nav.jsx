@@ -7,7 +7,7 @@ export const Header = styled.div`
   position: fixed;
   width: 100%;
 
-  a {
+  a{
     color: white; 
     text-decoration: none; 
 
