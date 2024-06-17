@@ -1,5 +1,6 @@
 #root{
   background-color: black;
+  overflow-x: hidden;
 }
 
 h1, h5{
@@ -39,6 +40,7 @@ h1, h5{
 
 .animation-logo{
   max-width: 80%;
+  margin-bottom: 150px;
 }
 
 span{
