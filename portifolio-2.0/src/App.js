@@ -21,7 +21,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='col apresentation'>
+          <div className='col-4 apresentation'>
             <img className='animation-logo' src='/images/animation-logo.gif'></img>
           </div>
         </div>
