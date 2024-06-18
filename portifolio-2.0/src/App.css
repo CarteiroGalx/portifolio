@@ -23,23 +23,18 @@ h1, h5{
 }
 
 .apresentation{
-  margin-top: 250px;
   position: relative;
 }
 
 .icons-knowledge{
   width: 100%;
-  height: 60px;
+  padding: 10px;
   background-color: #062C65;
   border-radius: 20px;
 }
 
 .icon-knowledge{
   max-width: 40px;
-}
-
-.animation-logo{
-  max-width: 80%;
 }
 
 span{

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './responsive.css'
 import Nav from './components/nav'
 import Divisor from './components/divisor';
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <div className="App">
         <Nav />
-        <div className='row'>
+        <div className='d-flex flex-column-reverse flex-md-row pt-5'>
           <div id='#home' className='col-md-7 apresentation mx-5'>
             <div className='col-10'>
               <h1>Olá, meu nome é <span>Erivelton</span></h1>
@@ -36,8 +37,8 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='col apresentation d-none d-md-block'>
-            <img className='animation-logo' src='/images/animation-logo.gif'></img>
+          <div className='col apresentation d-flex justify-content-center justify-content-lg-start mt-4'>
+            <img className='animation-logo mx-md-0 mb-5' src='/images/animation-logo.gif'></img>
           </div>
         </div>
         <Divisor className="mt-5" name="Projetos"/>
