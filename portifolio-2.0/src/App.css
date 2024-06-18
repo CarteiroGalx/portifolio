@@ -1,11 +1,11 @@
 #root{
   background-color: black;
   overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
 }
 
 h1, h5{
   color: white;
-  font-family: 'Inter', sans-serif;
 }
 
 .b-blue-font{
@@ -22,34 +22,41 @@ h1, h5{
   cursor: pointer;
 }
 
-.apresentation{
-  margin-top: 250px;
-  position: relative;
-}
-
 .icons-knowledge{
-  width: 100%;
-  height: 60px;
+  width: 80%;
+  padding: 10px;
   background-color: #062C65;
   border-radius: 20px;
 }
 
 .icon-knowledge{
-  max-width: 40px;
-}
-
-.animation-logo{
-  max-width: 80%;
-  margin-bottom: 150px;
+  width: 40px;
 }
 
 span{
   color: #007BFF;
 }
 
-.divisor{
-  width: 100%;
-  height: 8px;
+.divisor-knowledge{
+  width: 40%;
+  height: 1vh;
   border-radius: 20px;
   background-color: #062C65;
 }
+
+.button-project{
+  background-color: #062C65;
+  border: none;
+  width: 171px;
+  height: 45px;
+  font-size: x-large;
+}
+
+.button-project:hover{
+  opacity: 90%;
+}
+
+.selected{
+  background-color: #0C58CB;
+}
+

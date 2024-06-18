@@ -11,10 +11,17 @@ export const Header = styled.div`
   a{
     color: white; 
     text-decoration: none; 
+    font-size: 20px;
 
     &:hover {
       cursor: pointer;
       color: #007BFF;
+    }
+  }
+
+  @media (min-width: 2000px) {
+    a{
+      font-size: 40px;
     }
   }
 `

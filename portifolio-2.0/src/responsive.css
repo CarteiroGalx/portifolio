@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+    #home{
+        padding-top: 180px;
+        padding-bottom: 90px;
+    }
+
+    .animation-logo{
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .apresentation{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .icons-knowledge{
+        width: 100%;
+    }
+
+    .animation-logo{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1820px) {
+    .icon-knowledge{
+        width: 60px;
+    }
+}
