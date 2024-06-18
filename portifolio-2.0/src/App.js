@@ -3,6 +3,7 @@ import './App.css';
 import './responsive.css'
 import Nav from './components/nav'
 import Divisor from './components/divisor';
+import Game_projects_list from './components/game_projects_list';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <button className='button-project selected text-white rounded-start-5'>Websites</button>
           <button className='button-project text-white rounded-end-5'>Games</button>
         </div>
+        <Game_projects_list/>
     </div>
   );
 }
