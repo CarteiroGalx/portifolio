@@ -47,7 +47,8 @@ span{
 .button-project{
   background-color: #062C65;
   border: none;
-  width: 171px;
+  width: 35vw;
+  max-width: 160px;
   height: 45px;
   font-size: x-large;
 }
