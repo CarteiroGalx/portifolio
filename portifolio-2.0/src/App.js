@@ -23,18 +23,18 @@ function App() {
                 <div className='d-none d-md-block divisor-knowledge'></div>
               </div>
                 <div className='icons-knowledge justify-content-center justify-content-md-start align-items-center d-flex flex-wrap'>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-1.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-2.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-3.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-4.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-5.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-6.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-7.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-8.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-9.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-10.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-11.png'></img>
-                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/icon-12.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/html.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/css.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/javascript.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/csharp.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/sql.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/sass.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/bootstrap.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/react.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/node.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/unity.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/git.png'></img>
+                  <img className='icon-knowledge mx-2' src='/images/icons-knowledge/python.png'></img>
                 </div>
             </div>
           </div>
@@ -44,8 +44,8 @@ function App() {
         </div>
         <Divisor className="mt-5" name="Projetos"/>
         <div className='justify-content-center align-items-center d-flex mb-4'>
-          <button className='button-project selected text-white rounded-start-5'>Websites</button>
-          <button className='button-project text-white rounded-end-5'>Games</button>
+          <button className='button-project selected text-white rounded-start-5'>Games</button>
+          <button className='button-project text-white rounded-end-5'>Websites</button>
         </div>
         <Game_projects_list/>
     </div>
