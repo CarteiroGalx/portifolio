@@ -1,11 +1,19 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import './responsive.css'
 import Nav from './components/nav'
 import Divisor from './components/divisor';
 import Game_projects_list from './components/game_projects_list';
+import Web_projects_list from './components/web_projects_list';
 
 function App() {
+  const [showGames, setShowGames] = useState(true);
+
+  const handleClick = () => {
+    setShowGames(!showGames);
+  };
+
   return (
     <div className="App">
         <Nav />
@@ -43,11 +51,13 @@ function App() {
           </div>
         </div>
         <Divisor className="mt-5" name="Projetos"/>
-        <div className='justify-content-center align-items-center d-flex mb-4'>
-          <button className='button-project selected text-white rounded-start-5'>Games</button>
-          <button className='button-project text-white rounded-end-5'>Websites</button>
-        </div>
-        <Game_projects_list/>
+        <div id='projetos' className='justify-content-center align-items-center d-flex flex-column mb-4'>
+        <button id="buttonGames" onClick={handleClick} className='button-project text-white rounded-5'>
+          {showGames ? 'Games' : 'Websites'}
+        </button>
+        <p className='text-white'>↗Alternar entre projetos↖</p>
+      </div>
+      {showGames ? <Game_projects_list /> : <Web_projects_list />}
     </div>
   );
 }

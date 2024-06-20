@@ -1,7 +1,8 @@
-import { Styles_project } from "./game_project.jsx" 
-import Icon_tool from "./icon_tool" 
+import Styles_project from './project.jsx';
+import Icon_tool from './icon_tool.js';
 
-function game_project(props) { 
+function project(props) {
+
     return (
         <Styles_project className="card mb-3 text-white" style={{width: '18rem'}}>
                 <div className="image-container">
@@ -16,8 +17,16 @@ function game_project(props) {
                     <Icon_tool imagem={props.tool_5}></Icon_tool>
                 </div>
                 <p className="card-text m-2">{props.descricao}</p> 
+                <div className="buttons">
+                    <button className='btn-link-indisponivel'>
+                        <a href={props.link}></a>
+                    </button>
+                    <button className='btn-repo-indisponivel'>
+                        <a href={props.repo}></a>
+                    </button>
+                </div>
         </Styles_project>
     )
 }
 
-export default game_project
+export default project
