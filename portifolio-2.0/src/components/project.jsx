@@ -14,13 +14,15 @@ export const Styles_project = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  height: 100%;
 }
 
-p{
+.card-text{
   min-height: 144px;
 }
 
-.btn-repo-active{
+.repo-active{
+  text-decoration: none;
   border-radius: 0 5px 0 0;
   color: white;
   background-color: #062C65;
@@ -30,7 +32,7 @@ p{
   border-right: 2px solid #007BFF;
 }
 
-.btn-link-active{
+.link-active{
   text-decoration: none;
   border-radius: 5px 0 0 0;
   color: white;
@@ -41,34 +43,37 @@ p{
   border-right: 1px solid #007BFF;
 }
 
-.btn-repo-active:hover{
+.repo-active:hover{
   background-color: #007BFF;
   cursor: pointer;
 }
 
-.btn-link-active:hover{
+.link-active:hover{
   background-color: #007BFF;
   cursor: pointer;
 }
 
-.btn-repo-indisponible{
+.repo-inactive{
+  color: white;
   border-radius: 0 5px 0 0;
-  color: #000000;
+  text-decoration: none;
   background-color: #650606;
   border-bottom: 0;
-  border-top: 2px solid #ff0000;
-  border-left: 1px solid #ff0000;
-  border-right: 2px solid #ff0000;
+  border-top: 2px solid #007BFF;
+  border-left: 1px solid #007BFF;
+  border-right: 2px solid #007BFF;
 }
 
-.btn-link-indisponible{
+.link-inactive{
+  align-self: flex-end;
+  color: white;
   border-radius: 5px 0 0 0;
-  color: #000000;
+  text-decoration: none;
   background-color: #650606;
   border-bottom: 0;
-  border-top: 2px solid #ff0000;
-  border-left: 1px solid #ff0000;
-  border-right: 2px solid #ff0000;
+  border-top: 2px solid #007BFF;
+  border-left: 2px solid #007BFF;
+  border-right: 1px solid #007BFF;
 }
 
 

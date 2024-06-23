@@ -1,4 +1,4 @@
-import Styles_project from './project.jsx';
+import {Styles_project} from './project.jsx';
 import Icon_tool from './icon_tool.js';
 
 function project(props) {
@@ -18,12 +18,15 @@ function project(props) {
                 </div>
                 <p className="card-text m-2">{props.descricao}</p> 
                 <div className="buttons">
-                    <button className='btn-link-indisponivel'>
-                        <a href={props.link}></a>
-                    </button>
-                    <button className='btn-repo-indisponivel'>
-                        <a href={props.repo}></a>
-                    </button>
+                    {props.link ? 
+                    (<a className='link-active px-2' href={props.link}>Acessar</a>
+                ) : ( 
+                    <p className='link-inactive px-2 m-0'>Indisponível</p>
+                )}
+                    {props.repo ? (<a className='repo-active px-2' href={props.repo}>Repositório</a>
+                ) : (
+                    <p className='repo-inactive px-2 m-0'>Indisponível</p>
+                )}
                 </div>
         </Styles_project>
     )
