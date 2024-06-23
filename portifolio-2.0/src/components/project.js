@@ -19,11 +19,11 @@ function project(props) {
                 <p className="card-text m-2">{props.descricao}</p> 
                 <div className="buttons">
                     {props.link ? 
-                    (<a className='link-active px-2' href={props.link}>Acessar</a>
+                    (<a className='link-active px-2' href={props.link} target='u_blank'>Acessar</a>
                 ) : ( 
                     <p className='link-inactive px-2 m-0'>Indisponível</p>
                 )}
-                    {props.repo ? (<a className='repo-active px-2' href={props.repo}>Repositório</a>
+                    {props.repo ? (<a className='repo-active px-2' href={props.repo} target='u_blank'>Repositório</a>
                 ) : (
                     <p className='repo-inactive px-2 m-0'>Indisponível</p>
                 )}
