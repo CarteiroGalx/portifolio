@@ -57,7 +57,22 @@ span{
   opacity: 90%;
 }
 
-.selected{
-  background-color: #0C58CB;
+.font-contact{
+  color: #007BFF;
+  height: 30px;
+}
+
+.icon-contact{
+  font-size: 90px;
+  color: #007BFF;
+}
+
+.icon-contact-img{
+  max-width: 90px;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
 }
 
