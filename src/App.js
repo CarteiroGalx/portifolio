@@ -68,7 +68,7 @@ function App() {
         <div className='info-contact d-flex flex-column align-items-center mx-3'>
           <i className="icon-contact bi bi-github"></i>
           <p className='font-contact fs-4'>Github</p>
-          <a className='fs-6 text-white' href='#'>Clique para acessar</a>
+          <a className='fs-6 text-white' href='https://github.com/CarteiroGalx'>Clique para acessar</a>
         </div>
         <div className='info-contact d-flex flex-column align-items-center mx-3'>
           <i className="icon-contact bi bi-envelope-fill"></i>
@@ -80,10 +80,10 @@ function App() {
           <p className='font-contact fs-4'>Telefone</p>
           <p className='fs-6 text-white' href='#'>(81) 994688568</p>
         </div>
-        <div className='info-contact d-flex flex-column align-items-center mx-3'>
+        <div className='info-contact-img-container d-flex flex-column align-items-center mx-3'>
           <img className="icon-contact-img" src='./images/itch2.png'></img>
           <p className='font-contact fs-4'>Itch.io</p>
-          <p className='fs-6 text-white' href='#'>Clique para acessar</p>
+          <a className='fs-6 text-white' href='https://carteirogalx.itch.io/'>Clique para acessar</a>
         </div>
       </div>
     </div>
