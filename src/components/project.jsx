@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Styles_project = styled.div`
+export const STYLES_PROJECT = styled.div`
 
   border: 2px solid #007BFF;
   background-color: #0c0c0c;

@@ -1,20 +1,20 @@
-import {Styles_project} from './project.jsx';
-import Icon_tool from './icon_tool.js';
+import {STYLES_PROJECT} from './project.jsx';
+import ICON_TOOL from './icon_tool.js';
 
 function project(props) {
 
     return (
-        <Styles_project className="card mb-3 text-white" style={{width: '18rem'}}>
+        <STYLES_PROJECT className="card mb-3 text-white" style={{width: '18rem'}}>
                 <div className="image-container">
-                    <img src={`./images/projects-images/${props.imagem}`} className="card-img-top" alt={props.imagem_alt}/> 
+                    <img src={`./images/projects-images/${props.imagem}`} className="card-img-top" alt="Imagem do projeto"/> 
                 </div>
                 <h5 className="card-title m-2 text-center">{props.nome}</h5> 
                 <div className="d-flex flex-row justify-content-center icons">
-                    <Icon_tool imagem={props.tool_1}></Icon_tool>
-                    <Icon_tool imagem={props.tool_2}></Icon_tool>
-                    <Icon_tool imagem={props.tool_3}></Icon_tool>
-                    <Icon_tool imagem={props.tool_4}></Icon_tool>
-                    <Icon_tool imagem={props.tool_5}></Icon_tool>
+                    <ICON_TOOL imagem={props.tool_1} alt="Ferramenta utilizada"></ICON_TOOL>
+                    <ICON_TOOL imagem={props.tool_2} alt="Ferramenta utilizada"></ICON_TOOL>
+                    <ICON_TOOL imagem={props.tool_3} alt="Ferramenta utilizada"></ICON_TOOL>
+                    <ICON_TOOL imagem={props.tool_4} alt="Ferramenta utilizada"></ICON_TOOL>
+                    <ICON_TOOL imagem={props.tool_5} alt="Ferramenta utilizada"></ICON_TOOL>
                 </div>
                 <p className="card-text m-2">{props.descricao}</p> 
                 <div className="buttons">
@@ -28,7 +28,7 @@ function project(props) {
                     <p className='repo-inactive px-2 m-0'>Indisponível</p>
                 )}
                 </div>
-        </Styles_project>
+        </STYLES_PROJECT>
     )
 }
 
