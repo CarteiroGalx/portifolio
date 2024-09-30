@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    background-color: black;
+    color: white;
+}
+
+.contato{
+    margin: 5px;
+}
+  
+header {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 80%, rgb(16,28,61)), url("/imagens/Fundogif.gif");
+    background-size: cover;
+    padding-bottom: 1px;
+    top: 0;
+    background-position: center bottom;
+}
+
+
+p{
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+}
+
+span{
+    color: #01d7fd;
+}
+
+.icons-contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto 210px;
+    max-width: 200px;
+}
+
+.nome{
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 90px;
+}
+
+.nome-effect {
+    background: -webkit-linear-gradient(#00c2ff, rgb(0 82 107));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dev{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.info{
+    font-family: 'roboto-regular', sans-serif;
+    font-size: larger;
+    max-width: 600px; 
+    margin: 0px auto;
+    opacity: 80%;
+}
+
+.icon:hover{
+    transform: scale(1.20);
+    cursor: pointer;
+}
+
+@media (max-width: 425px){
+    .nome{
+        font-size: 40px;
+    }
+
+    .info{
+        font-size: 17px;
+        margin: 5px;
+    }
+}

@@ -1,0 +1,136 @@
+.lista-projetos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.projeto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: aqua solid 1px;
+    background-color: #00000048;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px 20px;
+}
+
+.projeto-imagem{
+    max-width: 255px;
+    height: 145px;
+    width: 255px;
+    border-radius: 20px;
+    border: aqua solid 1px;
+    background-position: center;
+    background-size: contain;
+}
+
+a{
+    text-decoration: none;
+}
+
+#paragon{
+    background-image: url(/imagens/gifParagon.gif);
+}
+
+#hiper{
+    background-image: url(/imagens/gifHiper.gif);
+}
+
+#apple{
+    background-image: url(/imagens/gifApple.gif);
+}
+
+#kill{
+    background-image: url(/imagens/gifShooter.gif);
+}
+
+#calculadora{
+    background-image: url(/imagens/gif1.gif);
+}
+
+.click-texto{
+    font-style: italic;
+    font-size: x-small;
+    color: gray;
+}
+
+.click-texto-indisponivel{
+    font-style: italic;
+    font-size: x-small;
+    color: rgb(209, 0, 0);
+}
+.projeto-nome{
+    font-size: 30px;
+}
+
+.projeto-descricao{
+    font-size: 15px;
+    max-width: 260px;
+}
+
+.linguagens-usadas{
+    max-width: 50px;
+    margin-bottom: 3px;
+}
+  
+a:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+a:visited {
+    color: gray;
+}
+
+.linguagens-usadas:hover{
+    transform: scale(1.2);
+}
+
+@media(max-width: 768px){
+
+   #paragon{
+    background-image: url(/imagens/imageParagon.png)   
+    }
+
+   #hiper{
+    background: url("/imagens/imageHiper.png") no-repeat center;
+    background-size: contain;
+   }
+
+   #apple{
+    background-image: url(/imagens/imageApple.png);
+   }
+
+   #kill{
+    background-image: url(/imagens/imageShooter.png);
+   }
+
+   #calculadora{
+    background-image: url(/imagens/imageCalculadora.png);
+   }
+}
+
+@media (max-width: 425px){
+
+    .lista-projetos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        max-width: 960px;
+        margin: auto;
+    }
+
+    #nome-projeto{
+        font-size: 20px;
+    }
+
+    .projeto{
+        margin: 50px 10px;
+    }
+}
