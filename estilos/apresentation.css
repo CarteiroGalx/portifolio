@@ -2,6 +2,7 @@ body{
     color: white;
     background-image: url("/imagens/background.jpg");
     background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 em{
@@ -9,10 +10,29 @@ em{
     font-style: normal;
 }
 
+aside{
+    right: 0;
+    top: 37%;
+    position: fixed;
+    text-align: end;
+}
 
-.apresentation .nome{
+nav{
+    margin-left: 8px;
+}
+
+
+.apresentation .name{
     text-align: center;
     margin: 150px auto 0 auto;
     max-width: 500px;
+    font-size: 2.5rem;
+}
+
+.apresentation .descrition{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto 150px auto;
+    font-size: 1rem;
 }
 
