@@ -1,10 +1,18 @@
-.background {
-    position: fixed;
-    z-index: -1;
-    top: -1px;
-    left: -1px;
-    width: 101%;
-    height: 101%;
+body{
+    color: white;
     background-image: url("/imagens/background.jpg");
     background-size: cover;
 }
+
+em{
+    color: rgb(2, 131, 236);
+    font-style: normal;
+}
+
+
+.apresentation .nome{
+    text-align: center;
+    margin: 150px auto 0 auto;
+    max-width: 500px;
+}
+
