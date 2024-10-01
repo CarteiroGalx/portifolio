@@ -1,5 +1,5 @@
 aside{
-    right: 1vw;
+    right: 2vw;
     top: 37%;
     position: fixed;
     text-align: end;
@@ -14,19 +14,20 @@ ul li{
 }
 
 a {
+    text-align: end;
     width: 125px;
     font-size: 22px;
     text-decoration: none;
     color: white;
     margin-bottom: 15px;
-    transition: transform 0.3s;
-    transition: margin-right 0.5s;
-    display: inline-block; /* Adicionado */
+    transition: transform 0.3s, margin-right 0.3s;
+    display: inline-block; 
 }
     
-a:hover{
+a:hover {
     transform: scale(2);
     margin-right: 70px;
     color: rgb(2, 131, 236);
 }
+
     

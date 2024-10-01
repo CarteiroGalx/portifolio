@@ -10,19 +10,26 @@ em{
     font-style: normal;
 }
 
-
-
-.apresentation .name{
+.bio{
+    margin: 190px auto 10px;
     text-align: center;
-    margin: 150px auto 0 auto;
-    max-width: 500px;
-    font-size: 2.5rem;
+    max-width: 600px;
 }
 
-.apresentation .descrition{
-    width: 600px;
-    text-align: center;
-    margin: 0 auto 150px auto;
+.apresentation .name{
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.apresentation .description{
     font-size: 1rem;
+}
+
+.icons{
+    max-height: 300px;
+}
+
+.icons img{
+    max-height: 300px;
 }
 
