@@ -13,7 +13,7 @@ ul li{
     margin: 5px 0;
 }
 
-a {
+nav a {
     text-align: end;
     width: 125px;
     font-size: 22px;
@@ -24,7 +24,7 @@ a {
     display: inline-block; 
 }
     
-a:hover {
+nav a:hover {
     transform: scale(2);
     margin-right: 70px;
     color: rgb(2, 131, 236);

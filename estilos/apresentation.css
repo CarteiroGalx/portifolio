@@ -6,7 +6,7 @@ body{
 }
 
 em{
-    color: rgb(2, 131, 236);
+    color: #0283ec;
     font-style: normal;
 }
 
@@ -26,10 +26,19 @@ em{
 }
 
 .icons{
-    max-height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
-.icons img{
-    max-height: 300px;
+.icons a{
+    font-size: 45px;
+    margin: 0 10px;
+    transition: color 0.12s, transform 0.1s;
+    color: white;
 }
 
+.icons a:hover{
+    cursor: pointer;
+    color: #0283ec;
+    transform: scale(110%);
+}
