@@ -4,19 +4,19 @@
     max-width: 600px;
 }
 
-.apresentation{
+#apresentation{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.apresentation .name{
+#apresentation .name{
     font-size: 2.5rem;
     margin: 20px 0;
 }
 
-.apresentation .description{
+#apresentation .description{
     font-size: 1rem;
     margin: 16px 0 0px 0;
 }
