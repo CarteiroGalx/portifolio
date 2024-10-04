@@ -11,9 +11,16 @@ em{
 }
 
 .bio{
-    margin: 190px auto 10px;
     text-align: center;
     max-width: 600px;
+}
+
+.apresentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .apresentation .name{
@@ -23,6 +30,7 @@ em{
 
 .apresentation .description{
     font-size: 1rem;
+    margin: 16px 0 0px 0;
 }
 
 .icons{
