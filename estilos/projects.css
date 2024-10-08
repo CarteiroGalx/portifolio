@@ -31,10 +31,11 @@
 }
 
 .project{
+    position: relative;
     background-color: #0c0c0c;
     border-radius: 12px;
     max-width: 321px;
-    margin: 100px 75px;
+    margin: 100px 150px;
     border: solid #005397;
 }
 
@@ -56,13 +57,14 @@
 }
 
 .icons-project{
-    margin: 5px 0;
+    margin: 5px;
     display: flex;
     justify-content: center;
 }
 
 .icons-project img{
     max-width: 25px;
+    margin: 0 5px;
 }
 
 .title-project{
@@ -73,12 +75,20 @@
 
 .desc-project{
     padding: 0 7px;
+    margin-bottom: 30px;
 }
 
 .btns-project{
-    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
+}
+
+.btns-project a{
+    height: 21px;
 }
 
 .btn-link, .btn-repo{
