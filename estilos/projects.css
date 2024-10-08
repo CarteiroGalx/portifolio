@@ -25,3 +25,94 @@
     background-color: #0283ec;
     cursor: pointer;
 }
+
+.projects-list{
+    display: flex;
+}
+
+.project{
+    background-color: #0c0c0c;
+    border-radius: 12px;
+    max-width: 321px;
+    margin: 100px 75px;
+    border: solid #005397;
+}
+
+.img-project{
+    position: relative;
+    width: 315px;
+    height: 250px;
+    border-radius: 8px 8px 0 0;
+}
+
+#calc{
+    background-image: url("/imagens/imageCalculadora.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 30%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), #0c0c0c);
+}
+
+.icons-project{
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-project img{
+    max-width: 25px;
+}
+
+.title-project{
+    border-top: solid #005397 2px;
+    text-align: center;
+    margin: 6px 0;
+}
+
+.desc-project{
+    padding: 0 7px;
+}
+
+.btns-project{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-link, .btn-repo{
+    height: 21px;
+    width: 100px;
+    background-color: #0c0c0c;
+    color: #0283ec;
+}
+
+.btn-link{
+    border: #005397 solid 2px;
+    border-right: solid #005397 1px;
+    border-bottom: none;
+    border-radius: 5px 0 0 0;
+}
+
+.btn-repo{
+    border: #005397 solid 2px;
+    border-left: solid #005397 1px;
+    border-bottom: none;
+    border-radius: 0 5px 0 0;
+}
+
+.buttonhover:hover{
+    background-color: #0283ec;
+    color: white;
+    cursor: pointer;
+}
+
+
+
