@@ -45,12 +45,6 @@
     border-radius: 8px 8px 0 0;
 }
 
-#calc{
-    background-image: url("/imagens/imageCalculadora.png");
-    background-size: cover;
-    background-position: center;
-}
-
 .img-project::after{
   content: '';
   position: absolute;
