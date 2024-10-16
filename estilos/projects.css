@@ -1,5 +1,6 @@
 .projects-list{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .project{
@@ -37,6 +38,10 @@
 .icons-project img{
     max-width: 25px;
     margin: 0 5px;
+}
+
+.icons-project img:hover{
+    transform: scale(130%);
 }
 
 .title-project{

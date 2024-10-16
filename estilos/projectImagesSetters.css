@@ -9,3 +9,39 @@
     background-size: cover;
     background-position: center;
 }
+
+#one-piece{
+    background-image: url("/imagens/imageOnePiece.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#paragon{
+    background-image: url("/imagens/imageParagon.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#apple{
+    background-image: url("/imagens/imageApple.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#shooter{
+    background-image: url("/imagens/imageShooter.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#hiper{
+    background-image: url("/imagens/imageHiper.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#fraternidade{
+    background-image: url("/imagens/imageFraternidade.png");
+    background-size: cover;
+    background-position: center;
+}
