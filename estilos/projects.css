@@ -57,7 +57,7 @@
 
 .btns-project{
     position: absolute;
-    bottom: 0;
+    bottom: 1px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -89,10 +89,16 @@
     border-radius: 0 5px 0 0;
 }
 
-.buttonhover:hover{
+.btn-hover:hover{
     background-color: #0283ec;
     color: white;
     cursor: pointer;
+}
+
+.btn-noacess{
+    background-color: rgb(95, 7, 7);
+    color: white;
+    border-color: rgb(163, 0, 0);
 }
 
 
