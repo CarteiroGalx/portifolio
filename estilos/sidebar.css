@@ -1,0 +1,34 @@
+aside{
+    z-index: 1;
+    right: 20px;
+    top: 37%;
+    position: fixed;
+    text-align: end;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    margin: 5px 0;
+}
+
+nav a {
+    text-align: end;
+    width: 125px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    transition: transform 0.3s, margin-right 0.3s;
+    display: inline-block; 
+}
+    
+nav a:hover {
+    transform: scale(2);
+    margin-right: 70px;
+    color: rgb(2, 131, 236);
+}
+
+    

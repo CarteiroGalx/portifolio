@@ -1,0 +1,11 @@
+@media (max-width: 1000px) {
+    aside{
+        display: none;    
+    }
+}
+
+@media (max-width: 900px) {
+    .project{
+        margin: 50px 2vw;
+    }
+}
