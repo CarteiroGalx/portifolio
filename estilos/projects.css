@@ -1,5 +1,6 @@
 .projects-list{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -8,7 +9,7 @@
     background-color: #0c0c0c;
     border-radius: 12px;
     max-width: 321px;
-    margin: 100px 150px;
+    margin: 50px 6vw;
     border: solid #005397;
 }
 

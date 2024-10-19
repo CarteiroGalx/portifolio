@@ -1,0 +1,30 @@
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact i{
+    font-size: 80px;
+}
+
+#contact a{
+    color: white;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    color: #0283ec;
+}
+
+.container-contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-contact{
+    text-align: center;
+    margin: 10px 20px;
+    width: 100px;
+}

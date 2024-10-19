@@ -1,5 +1,6 @@
 aside{
-    right: 2vw;
+    z-index: 1;
+    right: 20px;
     top: 37%;
     position: fixed;
     text-align: end;
